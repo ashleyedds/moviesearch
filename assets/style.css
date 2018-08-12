@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron {
@@ -37,5 +38,10 @@
 
 .card-img-top {
     height: 55vh;
+}
+
+.modal-title {
+    font-family: "Limelight", cursive;
+    font-size: 2em;
 }
 
