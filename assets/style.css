@@ -1,6 +1,34 @@
 * {
     box-sizing: border-box;
 }
+
+.jumbotron {
+    background-image: url(./images/banner.jpg); 
+    background-size: 101% 200%;
+    height: 35vh;
+    background-position: -2px -24px;
+    border-bottom: #bb1916 solid 5px;
+}
+
+.title {
+    float: right;
+    font-family: 'Limelight', cursive;
+    color: #fff;
+    font-size: 100px;
+}
+
+#movie-input {
+    width: 13vw;
+}
+
+.search-row {
+    margin-bottom: 2%;
+}
+
+.intro {
+    font-family: 'Limelight', cursive;;
+}
+
 .card {
     float: left;
     width: 18vw;
@@ -10,3 +38,4 @@
 .card-img-top {
     height: 55vh;
 }
+
