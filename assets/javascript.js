@@ -34,10 +34,10 @@ $(document).ready(() => {
                     const movieCard = $("<div class='card'>");
                     const cardImg = $(`<img class='card-img-top' src=${moviePoster}>`);
                     const cardBody = $(`<div class='card-body'>
-                <h5 class='card-title'>${movieTitle}</h5>
-                <button type='button' class='btn btn-primary plotBtn' data-toggle='modal' data-target='#plotModal' data-title='${movieTitle}' data-plot='${movieOverview}'>Overview</button>`);
+                <h5 class='card-title'>${movieTitle}</h5></div>`)
+                    const cardFooter = (`<div class='card-footer'><button type='button' class='btn btn-primary plotBtn' data-toggle='modal' data-target='#plotModal' data-title='${movieTitle}' data-plot='${movieOverview}'>Overview</button></div>`);
 
-                    movieCard.append(cardImg, cardBody);
+                    movieCard.append(cardImg, cardBody, cardFooter);
 
                     $(".movie-display").append(movieCard);
 

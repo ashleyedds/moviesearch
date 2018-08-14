@@ -34,6 +34,7 @@
     float: left;
     width: 18vw;
     height: 70vh;
+    margin: 15px;
 }
 
 .card-img-top {
@@ -43,5 +44,34 @@
 .modal-title {
     font-family: "Limelight", cursive;
     font-size: 2em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .jumbotron {
+        height: 10vh;
+    }
+    .title {
+        font-size: 55px;
+    }
+    .projector-img {
+        width: 70vw;
+    }
+    #movie-input{
+        margin-top: 20px;
+    }
+    .intro {
+        margin: 50px;
+    }
+    .card {
+        width: 21vw;
+        height: 30vh;
+        margin: 10px;
+    }
+    .card-img-top {
+        height: 20vh;
+    }
+    .card-title {
+        font-size: 1em;
+    }
 }
 
