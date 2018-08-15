@@ -114,7 +114,7 @@ body {
     }
 }
 
-@media only screen and (min-device-width : 1025px) and (max-device-width : 1500px) {
+@media only screen and (min-device-width : 1025px) and (max-device-width : 2000px) {
     .jumbotron {
         height: 20vh;
     }
