@@ -116,7 +116,7 @@ body {
 
 @media only screen and (min-device-width : 941px) and (max-device-width : 2161px) {
     .jumbotron {
-        height: 20vh;
+        height: 25vh;
     }
     .title {
         font-size: 50px;
