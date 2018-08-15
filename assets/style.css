@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #b2aeae;
+}
+
 .jumbotron {
     background-image: url(./images/banner.jpg); 
     background-size: 101% 200%;
@@ -85,6 +89,9 @@
     .title {
         font-size: 55px;
     }
+    #movie-input {
+        margin-bottom: 50px;
+    }
     .projector-img {
         width: 67vw;
     }
@@ -107,7 +114,7 @@
     }
 }
 
-@media only screen and (min-device-width : 1025px) and (max-device-width : 2500px) {
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1500px) {
     .jumbotron {
         height: 20vh;
     }
@@ -123,6 +130,9 @@
     }
     .card-title {
         font-size: 1em;
+    }
+    .projector-img {
+        width: 39vw;
     }
 }
 
