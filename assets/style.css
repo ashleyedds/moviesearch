@@ -82,7 +82,7 @@ body {
     }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 941px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .jumbotron {
         height: 15vh;
     }
@@ -114,7 +114,7 @@ body {
     }
 }
 
-@media only screen and (min-device-width : 941px) and (max-device-width : 1649px) {
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1649px) {
     .jumbotron {
         height: 25vh;
     }
